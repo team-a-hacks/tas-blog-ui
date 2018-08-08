@@ -1,0 +1,40 @@
+[
+  {
+    "title": "はじめての投稿",
+    "content": "今日がはじめての投稿です。\nよろしくね",
+    "photos": [],
+    "postDate": "2018-08-03T12:01:00Z",
+    "createdAt": "2018-08-03T12:01:00Z",
+    "user": {
+      "nickname": "スーパーマリヲ"
+    },
+    "comments": [
+      {
+        "user": {
+          "nickname": "スーパーピーチ"
+        },
+        "message": "ヨロシクネ!!",
+        "createdAt": "2018-08-03T12:02:01Z"
+      }
+    ]
+  },
+  {
+    "title": "はじめての投稿",
+    "content": "今日がはじめての投稿です。\nよろしくね",
+    "photos": [],
+    "postDate": "2018-08-03T12:01:00Z",
+    "createdAt": "2018-08-03T12:01:00Z",
+    "user": {
+      "nickname": "スーパーマリヲ"
+    },
+    "comments": [
+      {
+        "user": {
+          "nickname": "スーパーピーチ"
+        },
+        "message": "ヨロシクネ!!",
+        "createdAt": "2018-08-03T12:02:01Z"
+      }
+    ]
+  }
+]
