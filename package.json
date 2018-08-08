@@ -14,8 +14,12 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "date-fns": "^1.29.0",
     "element-ui": "^2.4.5",
+    "moment": "^2.22.2",
+    "node-sass": "^4.9.2",
     "nuxt": "^1.0.0",
+    "sass-loader": "^7.1.0",
     "vue-axios": "^2.1.2"
   },
   "devDependencies": {
