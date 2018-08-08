@@ -6,8 +6,7 @@
           class="icon-box"
           :span="2"
         >
-          <!-- TODO: ここにユーザーのアイコンを表示する -->
-          <!-- <img /> -->
+          <UserIcon :icon="icon" />
         </el-col>
         <el-col :span="22">
           <el-input
@@ -30,11 +29,16 @@
 </template>
 
 <script>
+import UserIcon from '~/components/UserIcon'
 export default {
   data () {
     return {
-      comment: ''
+      comment: '',
+      icon: ''
     }
+  },
+  components: {
+    UserIcon
   },
   methods: {
     postComment () {
