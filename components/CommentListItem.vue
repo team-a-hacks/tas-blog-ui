@@ -5,8 +5,7 @@
         class="icon-box"
         :span="2"
       >
-        <!-- TODO: ここにユーザーのアイコンを表示する -->
-        <!-- <img /> -->
+        <UserIcon />
       </el-col>
       <el-col :span="20">
         <div>
@@ -23,11 +22,15 @@
 
 <script>
 import { someDaysAgo } from '~/assets/js/date-format.js'
+import UserIcon from '~/components/UserIcon'
 export default {
   props: {
     comment: {
       type: Object
     }
+  },
+  components: {
+    UserIcon
   },
   methods: {
     commentAt (date) {

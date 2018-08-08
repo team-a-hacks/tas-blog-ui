@@ -1,8 +1,33 @@
 <template>
   <div>
-    <nuxt/>
+    <el-container>
+      <el-header height="285px">
+        <the-header/>
+      </el-header>
+      <the-navigator/>
+      <el-main>
+        <nuxt/>
+      </el-main>
+      <el-footer>
+        <the-footer/>
+      </el-footer>
+    </el-container>
   </div>
 </template>
+
+
+<script>
+import TheHeader from '~/components/TheHeader.vue'
+import TheFooter from '~/components/TheFooter.vue'
+import TheNavigator from '~/components/TheNavigator.vue'
+export default {
+  components: {
+    TheHeader,
+    TheFooter,
+    TheNavigator
+  }
+}
+</script>
 
 <style>
 html {

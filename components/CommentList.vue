@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="comment-list">
     <CommentListItem
       v-for="comment in comments"
       :key="comment.id"
@@ -31,4 +31,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.comment-list {
+  max-width: 960px;
+}
 </style>
