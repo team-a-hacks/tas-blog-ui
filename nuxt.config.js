@@ -13,6 +13,9 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  env: {
+    TAS_BLOG_API_URL: process.env.TAS_BLOG_API_URL | 'https://tas-blog-api.herokuapp.com'
+  },
   /*
   ** Customize the progress bar color
   */
