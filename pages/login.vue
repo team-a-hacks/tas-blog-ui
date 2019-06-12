@@ -121,7 +121,7 @@ export default {
 
 <style lang="scss" scoped>
 .login-bg {
-  background-image: url("~/static/login_bg.jpg");
+  background-image: url("~static/login_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
